@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100;1,100&display=swap');
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url('fondo-dark.png'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    line-height: 1.6;
+}
+
+.contenedor{
+    max-width: 720px;
+    margin: 10px auto;
+    padding: 24px;
+}
+
+.tema{
+    font-family: "Libre Baskerville", serif;
+    font-size: 20px;
+    color: #D9D9D9;
+    font-weight: 600;
+    text-align: center; 
+}
+
+#navegacion {
+    margin-top: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#encabezado .contenedor{
+    text-align: center;
+}
+
+nav > a{
+    color: lightgrey;
+    font-family: "Libre Baskerville", serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin: 0 5px;
+    padding-bottom: 10px;
+}
+
+#navegacion > a:hover{
+    color: yellow;
+    border-bottom: 2px solid yellow;
+    transition: 2s all;
+}
+
+#titulo.primeraparte{
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 0;    
+    text-align: center;
+}
+
+.primeraparte .intro h1{
+    color: #ffffff;
+    font-size: 100px; 
+    font-weight: 100;
+    letter-spacing: 20px;
+    margin: 0 0 6px 0;
+    text-transform: uppercase;
+    text-shadow: 0 4px 15px rgba(0, 0, 0, 0.9);
+}
+
+.primeraparte .intro h1{
+    margin-top: 30px;
+    line-height: 1.1;
+    margin-bottom: 0;
+}
+
+.primeraparte .intro p{
+    margin-top: 0;
+}
+.primeraparte .intro p{
+    color: #d35400;  
+    font-size: 18px;
+    font-weight: 900;
+    letter-spacing: 4px;
+    margin: 0;
+    text-transform: uppercase;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.8);
+}
+
+.segundaparte{
+    max-width: 800px;        
+    margin: 40px auto;       
+    padding: 0 20px;  
+}
+
+.partes{
+    color: #d4ac0d;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.9);
+}
+
+.segundaparte .partes{
+    margin-top: 100px;
+}
+
+.segundaparte .parrafosp{
+    color: #ffffff;
+    text-align: justify;     
+    line-height: 1.6;        
+    text-shadow: 0 1px 6px rgba(0, 0, 0, 0.9);
+}
+
+.terceraparte{
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.terceraparte .partes{
+    margin-top: 100px;
+    border-bottom: 1px solid rgba(243, 156, 18, 0.4);
+}
+
+.caracteristica{
+    display: flex;
+    margin-bottom: 14px;
+    font-size: 16px;
+}
+
+.caracteristica .dato{
+    color: #f39c12;                     
+    font-weight: 700;
+    min-width: 170px;
+    text-shadow: 0 1px 4px rgba(0, 0, 0, 0.8);
+}
+
+.caracteristica .info{
+    color: #ffffff;
+    font-weight: 400;
+    text-shadow: 0 1px 4px rgba(0, 0, 0, 0.8);
+}
+
+#contenedor-enlace{
+    margin-top: 25px;
+}
+
+
+#enlace a{
+    display: inline-block;
+    background-color: #e50914;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 15px;
+    padding: 10px 22px;
+    border-radius: 4px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.6);
+}
+
+#enlace > a:hover{
+    color: black;
+    background-color:#FFCE1B ;
+    transition: 2s all;
+}
+
+.cuartaparte .partes{
+    margin-top: 100px;
+}
+
+.cuartaparte .partes{
+    border-bottom: 1px solid rgba(243, 156, 18, 0.4);
+}
+
+.cuartaparte{
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px
+}
+
+.fotopersonaje{
+    display: flex;             
+    align-items: center;       
+    gap: 25px;                
+    margin-bottom: 25px;       
+}
+
+.fotopersonaje .foto{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border: 2px solid #f39c12;
+    box-shadow: 0 0 10px rgba(243, 156, 18, 0.3);
+}
+
+.fotopersonaje .nombre{
+    color: #f39c12;           
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin: 0 0 6px 0;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.9);
+}
+
+.fotopersonaje .infopersonaje{
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 1.45;
+    margin: 0;
+    text-shadow: 0 1px 4px rgba(0, 0, 0, 0.9);
+}
+
+#piedepagina{
+    color: white;
+    text-shadow: 0 1px 4px rgba(0, 0, 0, 0.9);
+    text-align: center;
+    margin: 4px 0; 
+    font-size: 14px; 
+    background-color: black;
+    margin: 100px 0 5px 0;
+    width: 100%;
+    padding: 5px 0;
+    text-align: center;
+}
+
+.espejo{
+    display: inline-block;
+    transform: scaleX(-1);
+    letter-spacing: 0;
+    margin-right: 18px;
+}
+

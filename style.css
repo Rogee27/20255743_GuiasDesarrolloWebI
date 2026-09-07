@@ -1,0 +1,96 @@
+/* Estilos generales del cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9fafb;
+    color: #2c3e50;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos del encabezado */
+header {
+    background-color: #2980b9;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 5px solid #3498db;
+}
+
+/* Modelo de caja para centrar el contenido principal */
+div.contenedor {
+    width: 70%;
+    margin: 30px auto; 
+    padding: 20px 40px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+/* Estilos de títulos y listas */
+h2 {
+    color: #34495e;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+}
+
+ul {
+    line-height: 1.8;
+}
+
+/* Estilos de los enlaces */
+a {
+    color: #8e44ad;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #9b59b6;
+    text-decoration: underline;
+}
+
+/* Estilo para el botón de retroceso */
+a.boton {
+    display: inline-block;
+    background-color: #e74c3c;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+a.boton:hover {
+    background-color: #c0392b;
+    text-decoration: none;
+}
+
+/* Estilos para la Tabla de Análisis */
+table.tabla-analisis {
+    width: 100%;
+    border-collapse: collapse; 
+    margin: 20px 0;
+}
+
+table.tabla-analisis th, table.tabla-analisis td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+table.tabla-analisis th {
+    background-color: #3498db;
+    color: white;
+}
+
+table.tabla-analisis tfoot td {
+    background-color: #f1f1f1;
+    text-align: center;
+    font-style: italic;
+    font-size: 14px;
+}
+
+/* Estilos para el contenedor del Video */
+div.video-container {
+    text-align: center;
+    margin: 30px 0;
+}
