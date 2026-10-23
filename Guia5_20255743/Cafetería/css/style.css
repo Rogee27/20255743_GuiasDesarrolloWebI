@@ -1,0 +1,62 @@
+body {
+    background-color: #F5EBE0;
+    color: #4B3832;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(75, 56, 50, 0.08);
+    padding: 30px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+h1, h4 {
+    color: #3C2F2F;
+    font-weight: 600;
+}
+
+.btn-cafe {
+    background-color: #854442;
+    color: #FFF;
+    border: none;
+}
+
+.btn-cafe:hover {
+    background-color: #4B3832;
+    color: #FFF;
+}
+
+.btn-outline-cafe {
+    border: 1px solid #854442;
+    color: #854442;
+    background-color: transparent;
+}
+
+.btn-outline-cafe:hover {
+    background-color: #854442;
+    color: #FFF;
+}
+
+.table thead {
+    background-color: #D4A373;
+    color: #FFF;
+}
+
+.form-control:focus {
+    border-color: #D4A373;
+    box-shadow: 0 0 0 0.25rem rgba(212, 163, 115, 0.25);
+}
+
+.totales-box {
+    background-color: #F5EBE0;
+    border-radius: 8px;
+    padding: 15px;
+    border: 1px solid #E3D5CA;
+}
+
+hr {
+    border-color: #E3D5CA;
+}
