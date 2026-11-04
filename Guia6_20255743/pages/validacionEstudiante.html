@@ -1,0 +1,111 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <title>Validación de estudiantes</title>
+</head>
+<body class="bg-light">
+
+    <div class="container py-5">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+
+                <div class="shadow-lg p-4 bg-body rounded">
+                    <h3>Ficha de estudiante</h3>
+                    <p>Complete la información del estudiante</p>
+
+                    <form id="idFormEstudiante" novalidate>
+
+                        <div class="mb-3">
+                            <label for="idCarnet" class="form-label">
+                                Carnet
+                            </label>
+                            <input type="text" class="form-control"
+                                id="idCarnet" placeholder="AB001">
+                            <div class="invalid-feedback" id="errorCarnet"></div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="idNombre" class="form-label">
+                                Nombre completo
+                            </label>
+                            <input type="text" class="form-control"
+                                id="idNombre" placeholder="Nombre y apellido">
+                            <div class="invalid-feedback" id="errorNombre"></div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="idDui" class="form-label">
+                                Número de DUI
+                            </label>
+                            <input type="text" class="form-control"
+                                id="idDui" placeholder="12345678-9">
+                            <div class="invalid-feedback" id="errorDui"></div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="idNit" class="form-label">
+                                Número de NIT
+                            </label>
+                            <input type="text" class="form-control"
+                                id="idNit" placeholder="1234-123456-123-1">
+                            <div class="invalid-feedback" id="errorNit"></div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="idFecha" class="form-label">
+                                Fecha de nacimiento
+                            </label>
+                            <input type="text" class="form-control"
+                                id="idFecha" placeholder="DD/MM/AAAA">
+                            <div class="invalid-feedback" id="errorFecha"></div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="idCorreo" class="form-label">
+                                Correo electrónico
+                            </label>
+                            <input type="text" class="form-control"
+                                id="idCorreo" placeholder="ejemplo@correo.com">
+                            <div class="invalid-feedback" id="errorCorreo"></div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="idEdad" class="form-label">
+                                Edad
+                            </label>
+                            <input type="text" class="form-control"
+                                id="idEdad" placeholder="Ingrese su edad">
+                            <div class="invalid-feedback" id="errorEdad"></div>
+                        </div>
+
+                        <button type="button" class="btn btn-success"
+                            id="idBtnValidar">
+                            Validar datos
+                        </button>
+
+                        <button type="reset" class="btn btn-danger"
+                            id="idBtnLimpiar">
+                            Limpiar formulario
+                        </button>
+
+                    </form>
+
+                    <div id="idResultado" class="mt-4"></div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="../bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="../js/validacionEstudiante.js" defer></script>
+
+</body>
+</html>
